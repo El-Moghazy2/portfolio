@@ -22,7 +22,7 @@ export const education = [
     period: "Jan 2024 - Nov 2024",
   },
   {
-    degree: "BEng Computer Science & Engineering",
+    degree: "BSc Computer Science & Engineering",
     school: "German University in Cairo",
     period: "2015 - 2020",
   },
