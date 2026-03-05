@@ -9,9 +9,9 @@ export const profile = {
 };
 
 export const awards = [
+  { title: "Henkel GBS+ Scholar Excellence Award", detail: "", year: "2024" },
   { title: "IBM Code and Response Hackathon", detail: "Global 1st Place", year: "2021" },
   { title: "IBM Call for Code", detail: "1st Place MEA Region", year: "2019" },
-  { title: "Henkel GBS+ Scholar Excellence Award", detail: "", year: "2024" },
   { title: "Emotivate Change Hackathon", detail: "1st Place", year: "" },
 ];
 
