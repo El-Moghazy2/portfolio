@@ -34,4 +34,14 @@ export const experience: Experience[] = [
       "Delivered data-driven insights using statistical tools and ML models",
     ],
   },
+  {
+    company: "Udacity",
+    role: "Data Analysis Session Lead (Tutor/Mentor)",
+    period: "Feb 2022 - Jan 2023",
+    bullets: [
+      "Taught Statistics and Analytics concepts to 100+ students across 4 cohorts and 84+ sessions",
+      "Mentored students to complete their nanodegree with a 90%+ success rate",
+      "Achieved 4.86/5 average rating for the latest cohort",
+    ],
+  },
 ];
