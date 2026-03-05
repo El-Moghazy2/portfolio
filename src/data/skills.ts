@@ -6,18 +6,18 @@ export interface SkillCategory {
 export const skillCategories: SkillCategory[] = [
   {
     name: "Machine Learning",
-    skills: ["Predictive Modeling", "Time Series Forecasting", "Computer Vision", "NLP"],
+    skills: ["Scikit-learn", "Keras", "PyTorch", "TensorFlow", "Statistics"],
   },
   {
     name: "Generative AI",
-    skills: ["RAG", "LangGraph", "GenAI Chatbots", "LLMs"],
+    skills: ["RAG", "LangChain", "LangGraph", "LLMs"],
   },
   {
     name: "Languages & Tools",
-    skills: ["Python", "SQL", "TensorFlow", "PyTorch", "Scikit-learn"],
+    skills: ["Python", "OOP", "SQL", "Pandas", "Databricks", "Azure"],
   },
   {
-    name: "Data & Analysis",
-    skills: ["Data Analysis", "Research", "Statistical Modeling", "Bayesian Optimization"],
+    name: "Data & Business",
+    skills: ["Data Visualization", "Data Storytelling", "Business Problem Solving", "Design Thinking"],
   },
 ];

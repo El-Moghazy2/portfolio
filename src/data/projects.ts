@@ -36,19 +36,17 @@ export const projects: Project[] = [
     category: "Machine Learning",
   },
   {
-    title: "RAG for Multi-hop QA",
+    title: "KGQA-RAG",
     description:
-      "Knowledge graph-enhanced retrieval-augmented generation system for complex multi-hop question answering tasks.",
+      "Retrieval-augmented generation for multi-hop question answering on knowledge graphs.",
     tech: ["RAG", "Knowledge Graphs", "LLMs", "Python"],
-    achievement: "5% performance increase",
     category: "GenAI / NLP",
   },
   {
-    title: "EEG Learning System",
+    title: "Extractor Agent",
     description:
-      "Real-time student engagement monitoring system using EEG signals and data science to adapt learning experiences.",
-    tech: ["EEG", "Signal Processing", "Python", "ML"],
-    achievement: "1st Place - Emotivate Change Hackathon",
-    category: "Data Science / EdTech",
+      "GenAI agent to extract KPIs from unstructured documents and spec sheets using dynamic and static Pydantic models.",
+    tech: ["LangGraph", "Chainlit", "Pydantic", "Python"],
+    category: "GenAI / NLP",
   },
 ];

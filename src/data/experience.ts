@@ -11,8 +11,9 @@ export const experience: Experience[] = [
     role: "Senior Data Scientist",
     period: "Sep 2025 - Present",
     bullets: [
-      "Resolved critical operational issues, eliminating 6 months of manual work",
-      "Enhanced team efficiency through business problem-solving frameworks",
+      "Designed and implemented a GenAI description enhancer for SAP migration that automated 6 months of manual work",
+      "Built an Agentic RAG pipeline with fallback search and automated evaluation, optimizing retrieval via Query pre-processing, HyDE and Semantic Re-ranking",
+      "Conducted cross-functional discovery sessions to identify high-potential opportunities for Data Science interventions",
     ],
   },
   {
@@ -20,10 +21,9 @@ export const experience: Experience[] = [
     role: "Data Scientist",
     period: "Aug 2023 - Sep 2025",
     bullets: [
-      "Developed time series forecasting and Bayesian optimization models",
-      "Guided stakeholders in implementing data solutions, translating insights into actionable strategies",
-      "Founded the GenAI Council at GBS+ Cairo",
-      "Led training sessions on AI/ML across the organization",
+      "Applied advanced Data Science techniques, including time series forecasting, Bayesian optimization and RAG, to solve end-to-end business challenges",
+      "Guided stakeholders in implementing data solutions and translating insights into actions",
+      "Delivered training sessions to enhance team skills and promote knowledge sharing",
     ],
   },
   {
@@ -31,18 +31,18 @@ export const experience: Experience[] = [
     role: "Data Scientist",
     period: "Jun 2021 - Jul 2023",
     bullets: [
-      "Led data science team through full project lifecycle",
-      "Delivered data-driven insights using statistical tools and ML models",
+      "Directed end-to-end project execution, from requirements gathering to implementation and testing",
+      "Provided actionable insights through advanced statistical analysis and machine learning",
+      "Designed and deployed cancellation prediction, recommender systems, and customer segmentation solutions",
     ],
   },
   {
     company: "Udacity",
-    role: "Data Analysis Session Lead (Tutor/Mentor)",
+    role: "Data Analysis Session Lead",
     period: "Feb 2022 - Jan 2023",
     bullets: [
-      "Taught Statistics and Analytics concepts to 100+ students across 4 cohorts and 84+ sessions",
-      "Mentored students to complete their nanodegree with a 90%+ success rate",
-      "Achieved 4.86/5 average rating for the latest cohort",
+      "Delivered 80+ sessions and prepared materials for students from various fields and seniority levels",
+      "Explained Statistical and Data Analytics concepts and their applications in case studies",
     ],
   },
 ];
