@@ -1,13 +1,11 @@
-import { ArrowDown, Github, Linkedin, Mail, Calendar, Mic, Users, Star, Briefcase, GraduationCap, Trophy, Presentation } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Calendar, Mic, Users, GraduationCap, Trophy, Presentation } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { profile } from "@/data/profile";
 
 const stats = [
-  { icon: Calendar, value: "4+", label: "Years Experience" },
+  { icon: Calendar, value: "5+", label: "Years Experience" },
   { icon: Mic, value: "6+", label: "Tech Talks" },
   { icon: Users, value: "100+", label: "Students Mentored" },
-  { icon: Star, value: "4.86/5", label: "Rating" },
-  { icon: Briefcase, value: "3+", label: "Industries Served" },
   { icon: GraduationCap, value: "MSc", label: "Data Science & AI" },
   { icon: Trophy, value: "4", label: "Hackathon Awards" },
   { icon: Presentation, value: "80+", label: "Sessions Delivered" },
