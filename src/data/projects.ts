@@ -30,8 +30,8 @@ export const projects: Project[] = [
   {
     title: "Retail Recommender",
     description:
-      "Hybrid recommendation engine combining collaborative filtering and content-based approaches to deliver personalized product suggestions.",
-    tech: ["Collaborative Filtering", "Python", "Scikit-learn"],
+      "Hybrid recommendation engine combining collaborative filtering, content-based, and frequently-bought-together approaches to deliver personalized product suggestions.",
+    tech: ["Collaborative Filtering", "Frequently Bought Together", "Python", "Scikit-learn"],
     achievement: "16% average sales increase",
     category: "Machine Learning",
   },
