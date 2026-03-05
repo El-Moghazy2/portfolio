@@ -21,6 +21,7 @@ export const experience: Experience[] = [
     period: "Aug 2023 - Sep 2025",
     bullets: [
       "Developed time series forecasting and Bayesian optimization models",
+      "Guided stakeholders in implementing data solutions, translating insights into actionable strategies",
       "Founded the GenAI Council at GBS+ Cairo",
       "Led training sessions on AI/ML across the organization",
     ],
@@ -42,6 +43,24 @@ export const experience: Experience[] = [
       "Taught Statistics and Analytics concepts to 100+ students across 4 cohorts and 84+ sessions",
       "Mentored students to complete their nanodegree with a 90%+ success rate",
       "Achieved 4.86/5 average rating for the latest cohort",
+    ],
+  },
+  {
+    company: "Aigorithm",
+    role: "Computer Vision Intern",
+    period: "Aug 2020 - Oct 2020",
+    bullets: [
+      "Identified and analyzed possible solutions for computer vision projects",
+      "Implemented and tested modern and classical CV solutions using AWS, TensorFlow, and PyTorch",
+    ],
+  },
+  {
+    company: "Siemens EDA",
+    role: "Machine Learning Intern",
+    period: "Jun 2019 - Dec 2019",
+    bullets: [
+      "Engineered unstructured data for Machine Learning usage",
+      "Implemented ML pipelines and taught Applied ML track to other employees",
     ],
   },
 ];
