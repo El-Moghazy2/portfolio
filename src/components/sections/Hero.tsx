@@ -1,4 +1,4 @@
-import { ArrowDown, Github, Linkedin, Mail, Calendar, Mic, Users, Star } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Calendar, Mic, Users, Star, Briefcase, GraduationCap, Trophy, Presentation } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { profile } from "@/data/profile";
 
@@ -7,6 +7,10 @@ const stats = [
   { icon: Mic, value: "6+", label: "Tech Talks" },
   { icon: Users, value: "100+", label: "Students Mentored" },
   { icon: Star, value: "4.86/5", label: "Rating" },
+  { icon: Briefcase, value: "3+", label: "Industries Served" },
+  { icon: GraduationCap, value: "MSc", label: "Data Science & AI" },
+  { icon: Trophy, value: "4", label: "Hackathon Awards" },
+  { icon: Presentation, value: "80+", label: "Sessions Delivered" },
 ];
 
 export function Hero() {
@@ -69,7 +73,7 @@ export function Hero() {
         </div>
 
         {/* Right column — stats panel (desktop only) */}
-        <div className="hidden lg:col-span-5 lg:block">
+        <div className="lg:col-span-5">
           <div className="stagger-children grid grid-cols-2 gap-4">
             {stats.map((stat) => (
               <div
