@@ -8,7 +8,7 @@ export function SectionHeading({ title, subtitle }: SectionHeadingProps) {
     <div className="mb-12 text-center">
       <h2 className="text-3xl font-bold text-white sm:text-4xl">{title}</h2>
       {subtitle && <p className="mt-3 text-muted">{subtitle}</p>}
-      <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-accent" />
+      <div className="mx-auto mt-4 h-1 w-20 rounded-full bg-gradient-to-r from-accent to-purple-400" />
     </div>
   );
 }

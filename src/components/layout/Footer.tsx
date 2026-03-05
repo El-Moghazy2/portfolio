@@ -1,10 +1,10 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, ArrowUp } from "lucide-react";
 import { profile } from "@/data/profile";
 
 export function Footer() {
   return (
-    <footer className="border-t border-white/5 bg-background py-8">
-      <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 sm:flex-row sm:justify-between">
+    <footer className="border-t border-white/5 bg-background py-10">
+      <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 sm:flex-row sm:justify-between">
         <p className="text-sm text-muted">
           &copy; {new Date().getFullYear()} {profile.name}
         </p>
@@ -33,6 +33,13 @@ export function Footer() {
             aria-label="Email"
           >
             <Mail size={18} />
+          </a>
+          <a
+            href="#"
+            className="ml-2 flex items-center gap-1 text-sm text-muted transition-colors hover:text-white"
+            aria-label="Back to top"
+          >
+            <ArrowUp size={16} />
           </a>
         </div>
       </div>

@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { label: "About", href: "#about" },
+  { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Contact", href: "#contact" },
@@ -44,19 +45,25 @@ export function Navbar() {
 
         {/* Desktop */}
         <div className="hidden items-center gap-8 md:flex">
-          {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className={`text-sm transition-colors ${
-                activeSection === link.href.slice(1)
-                  ? "text-accent"
-                  : "text-muted hover:text-white"
-              }`}
-            >
-              {link.label}
-            </a>
-          ))}
+          {navLinks.map((link) => {
+            const isActive = activeSection === link.href.slice(1);
+            return (
+              <a
+                key={link.href}
+                href={link.href}
+                className={`relative text-sm transition-colors ${
+                  isActive ? "text-accent" : "text-muted hover:text-white"
+                }`}
+              >
+                {link.label}
+                <span
+                  className={`absolute -bottom-1 left-0 h-0.5 rounded-full bg-accent transition-all duration-300 ${
+                    isActive ? "w-full" : "w-0"
+                  }`}
+                />
+              </a>
+            );
+          })}
         </div>
 
         {/* Mobile toggle */}
@@ -70,22 +77,24 @@ export function Navbar() {
       </div>
 
       {/* Mobile menu */}
-      {mobileOpen && (
-        <div className="border-t border-white/5 bg-background/95 backdrop-blur-lg md:hidden">
-          <div className="flex flex-col gap-4 px-6 py-4">
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                onClick={() => setMobileOpen(false)}
-                className="text-sm text-muted transition-colors hover:text-white"
-              >
-                {link.label}
-              </a>
-            ))}
-          </div>
+      <div
+        className={`overflow-hidden border-t border-white/5 bg-background/95 backdrop-blur-lg transition-all duration-300 md:hidden ${
+          mobileOpen ? "max-h-60" : "max-h-0 border-t-transparent"
+        }`}
+      >
+        <div className="flex flex-col gap-4 px-6 py-4">
+          {navLinks.map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              onClick={() => setMobileOpen(false)}
+              className="text-sm text-muted transition-colors hover:text-white"
+            >
+              {link.label}
+            </a>
+          ))}
         </div>
-      )}
+      </div>
     </nav>
   );
 }
