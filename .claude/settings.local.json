@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:moghazy.my.canva.site)",
+      "WebFetch(domain:www.linkedin.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(npm create:*)",
+      "Bash(where:*)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Read(//c/Users/almog/repos/web/$APPDATA/**)",
+      "Read(//c/Users/almog/repos/web/$HOME/AppData/Roaming/**)",
+      "Read(//c/Users/almog/repos/web/$HOME/AppData/Local/**)",
+      "Bash(ls /c/Users/almog/AppData/Local/fnm*)",
+      "Bash(ls /c/Users/almog/.nvm*)",
+      "Bash(ls /c/Users/almog/scoop/apps/nodejs*)",
+      "Bash(node:*)",
+      "Bash(export:*)"
+    ]
+  }
+}
