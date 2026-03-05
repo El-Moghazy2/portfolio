@@ -45,22 +45,4 @@ export const experience: Experience[] = [
       "Achieved 4.86/5 average rating for the latest cohort",
     ],
   },
-  {
-    company: "Aigorithm",
-    role: "Computer Vision Intern",
-    period: "Aug 2020 - Oct 2020",
-    bullets: [
-      "Identified and analyzed possible solutions for computer vision projects",
-      "Implemented and tested modern and classical CV solutions using AWS, TensorFlow, and PyTorch",
-    ],
-  },
-  {
-    company: "Siemens EDA",
-    role: "Machine Learning Intern",
-    period: "Jun 2019 - Dec 2019",
-    bullets: [
-      "Engineered unstructured data for Machine Learning usage",
-      "Implemented ML pipelines and taught Applied ML track to other employees",
-    ],
-  },
 ];
