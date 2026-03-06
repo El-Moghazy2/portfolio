@@ -49,4 +49,32 @@ export const projects: Project[] = [
     tech: ["LangGraph", "Chainlit", "Pydantic", "Python"],
     category: "GenAI / NLP",
   },
+  {
+    title: "Multi-modal House Price Prediction",
+    description:
+      "Built a model combining image and text data for more accurate property valuation.",
+    tech: ["Deep Learning", "Multimodal", "Python"],
+    category: "Machine Learning",
+  },
+  {
+    title: "Price Monitoring System",
+    description:
+      "Automated product price monitoring and anomaly detection via Statistical Process Control (SPC).",
+    tech: ["Statistics", "SPC", "Python"],
+    category: "Data Science",
+  },
+  {
+    title: "Customer Segmentation",
+    description:
+      "Enhanced promo-code allocation efficiency using clustering-based customer segmentation.",
+    tech: ["Clustering", "Scikit-learn", "Python"],
+    category: "Machine Learning",
+  },
+  {
+    title: "Question Bot",
+    description:
+      "RAG-based chatbot answering queries on LLMs using Hugging Face course materials as a knowledge base.",
+    tech: ["RAG", "Hugging Face", "LLMs", "Python"],
+    category: "GenAI / NLP",
+  },
 ];

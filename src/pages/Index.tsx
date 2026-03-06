@@ -5,6 +5,7 @@ import { About } from "@/components/sections/About";
 import { ExperienceSection } from "@/components/sections/ExperienceSection";
 import { Projects } from "@/components/sections/Projects";
 import { Skills } from "@/components/sections/Skills";
+import { Volunteering } from "@/components/sections/Volunteering";
 import { Contact } from "@/components/sections/Contact";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
@@ -30,6 +31,8 @@ export default function Index() {
         <Projects />
         <Divider />
         <Skills />
+        <Divider />
+        <Volunteering />
         <Divider />
         <Contact />
       </main>
