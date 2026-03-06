@@ -3,7 +3,7 @@ import { talks, leadership } from "@/data/volunteering";
 
 export function Volunteering() {
   return (
-    <section id="volunteering" className="section-reveal py-28 lg:py-32">
+    <section id="community" className="section-reveal py-28 lg:py-32">
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid gap-12 lg:grid-cols-12">
           {/* Sticky left heading */}
@@ -12,7 +12,7 @@ export function Volunteering() {
               Giving Back
             </p>
             <h2 className="text-3xl font-bold text-white sm:text-4xl">
-              Volunteering & Leadership
+              Community & Leadership
             </h2>
             <div className="mt-4 h-1 w-20 rounded-full bg-gradient-to-r from-accent to-purple-400" />
           </div>
