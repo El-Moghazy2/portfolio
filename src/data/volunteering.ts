@@ -21,6 +21,14 @@ export const talks: Talk[] = [
 
 export const leadership: Leadership[] = [
   {
+    role: "Founder & Lead",
+    organization: "GenAI Council — Henkel GBS+ Cairo",
+    period: "2024 - 2025",
+    bullets: [
+      "Founded and led the GenAI Council to promote GenAI knowledge across teams at GBS+ Cairo.",
+    ],
+  },
+  {
     role: "President & Co-founder",
     organization: "GUC Brain — Machine Learning Community",
     period: "2018 - 2020",
