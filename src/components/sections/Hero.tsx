@@ -4,10 +4,10 @@ import { profile } from "@/data/profile";
 
 const stats = [
   { icon: Calendar, value: "5+", label: "Years Experience" },
-  { icon: Mic, value: "6+", label: "Tech Talks" },
+  { icon: Mic, value: "6+", label: "Public Talks" },
   { icon: Users, value: "100+", label: "Students Mentored" },
   { icon: GraduationCap, value: "MSc", label: "Data Science & AI" },
-  { icon: Trophy, value: "4", label: "Hackathon Awards" },
+  { icon: Trophy, value: "4", label: "Awards" },
   { icon: Presentation, value: "80+", label: "Sessions Delivered" },
 ];
 
