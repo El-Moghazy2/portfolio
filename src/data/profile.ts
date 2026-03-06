@@ -1,6 +1,7 @@
 export const profile = {
   name: "Abdelrhman ElMoghazy",
   title: "Senior Data Scientist",
+  tagline: "Turning business challenges into AI-powered solutions.",
   summary:
     "I'm a Data Scientist who thrives at the intersection of business challenges and AI solutions. Over the past years, I've worked on diverse projects, from predictive modeling in classification and time-series forecasting to building GenAI chatbots powered by RAG.",
   email: "abdelrhman.elmoghazy@gmail.com",

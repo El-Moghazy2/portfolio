@@ -30,7 +30,7 @@ export function Hero() {
           <p className="mb-6 bg-gradient-to-r from-accent to-purple-400 bg-clip-text text-xl font-semibold text-transparent sm:text-2xl">
             {profile.title}
           </p>
-          <p className="mx-auto mb-8 max-w-xl text-muted lg:mx-0">{profile.summary}</p>
+          <p className="mx-auto mb-8 max-w-xl text-muted lg:mx-0">{profile.tagline}</p>
 
           <div className="mb-8 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
             <Button asChild size="lg">
