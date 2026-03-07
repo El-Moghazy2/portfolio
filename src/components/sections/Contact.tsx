@@ -49,7 +49,7 @@ export function Contact() {
                 href={link.href}
                 target={link.external ? "_blank" : undefined}
                 rel={link.external ? "noopener noreferrer" : undefined}
-                className="group flex items-center gap-4 rounded-xl border border-white/5 bg-surface px-6 py-5 transition-colors hover:border-accent/30"
+                className="group flex items-center gap-4 overflow-hidden rounded-xl border border-white/5 bg-surface px-4 py-5 transition-colors hover:border-accent/30 sm:px-6"
               >
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent/10">
                   <link.icon size={20} className="text-accent" />
