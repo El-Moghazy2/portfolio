@@ -13,7 +13,7 @@ const stats = [
 
 export function Hero() {
   return (
-    <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6">
+    <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 pt-20 lg:pt-0">
       {/* Background gradient orbs */}
       <div className="gradient-orb -left-40 -top-40" />
       <div className="gradient-orb -bottom-40 -right-40" />

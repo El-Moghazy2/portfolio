@@ -79,8 +79,8 @@ export function Navbar() {
 
       {/* Mobile menu */}
       <div
-        className={`overflow-hidden border-t border-white/5 bg-background/95 backdrop-blur-lg transition-all duration-300 md:hidden ${
-          mobileOpen ? "max-h-60" : "max-h-0 border-t-transparent"
+        className={`overflow-hidden bg-background/95 backdrop-blur-lg transition-all duration-300 md:hidden ${
+          mobileOpen ? "max-h-60 border-t border-white/5" : "max-h-0 border-t-0"
         }`}
       >
         <div className="flex flex-col gap-4 px-6 py-4">
