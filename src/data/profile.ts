@@ -11,7 +11,7 @@ export const profile = {
 
 export const awards = [
   { title: "Henkel GBS+ Cairo 'the Scholar' Excellence Award", detail: "", year: "2024" },
-  { title: "Emotivate Change Hackathon", detail: "1st Place Global", year: "2021" },
+  { title: "Emotivate Change Hackathon", detail: "1st Place – Design Category", year: "2021" },
   { title: "IBM Call for Code", detail: "1st Place MEA Region", year: "2019" },
   { title: "Cairo Code and Response Hackathon", detail: "Runner Up Prize", year: "2019" },
 ];
