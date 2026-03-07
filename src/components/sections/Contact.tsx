@@ -26,7 +26,7 @@ const contactLinks = [
 
 export function Contact() {
   return (
-    <section id="contact" className="section-reveal bg-surface/30 py-28 lg:py-32">
+    <section id="contact" className="section-reveal overflow-hidden bg-surface/30 py-28 lg:py-32">
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid gap-12 lg:grid-cols-12">
           {/* Left heading */}
