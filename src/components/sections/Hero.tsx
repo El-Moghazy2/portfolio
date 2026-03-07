@@ -71,7 +71,7 @@ export function Hero() {
         </div>
 
         {/* Right column — stats panel (desktop only) */}
-        <div className="lg:col-span-5">
+        <div className="w-full lg:col-span-5">
           <div className="grid grid-cols-2 gap-4">
             {stats.map((stat) => (
               <div
