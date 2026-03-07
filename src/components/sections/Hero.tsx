@@ -18,9 +18,9 @@ export function Hero() {
       <div className="gradient-orb -left-40 -top-40" />
       <div className="gradient-orb -bottom-40 -right-40" />
 
-      <div className="relative z-10 mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-12">
+      <div className="relative z-10 mx-auto grid max-w-6xl items-center justify-items-center gap-12 lg:justify-items-stretch lg:grid-cols-12">
         {/* Left column */}
-        <div className="text-center lg:col-span-7 lg:text-left">
+        <div className="w-full text-center lg:col-span-7 lg:text-left">
           <p className="mb-4 text-sm font-medium uppercase tracking-widest text-accent">
             Welcome to my portfolio
           </p>
@@ -89,7 +89,7 @@ export function Hero() {
 
       <a
         href="#about"
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-muted"
+        className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 animate-bounce text-muted lg:block"
         aria-label="Scroll down"
       >
         <ArrowDown size={20} />
