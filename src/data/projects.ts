@@ -47,6 +47,7 @@ export const projects: Project[] = [
     description:
       "GenAI agent to extract KPIs from unstructured documents and spec sheets using dynamic and static Pydantic models.",
     tech: ["LangGraph", "Chainlit", "Pydantic", "Python"],
+    achievement: "96% extraction accuracy",
     category: "GenAI / NLP",
   },
   {
